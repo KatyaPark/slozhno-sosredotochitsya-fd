@@ -1,7 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
-
-
 .theme-dark {
   --bg-color: #000028;
   --text-color: #000028;
@@ -52,7 +48,6 @@ header {
   height: 9px;
   background-color: var(--accent-color);
   border-radius: 50%;
-  vertical-align: unset;
   margin: 0;
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
@@ -170,7 +165,6 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   padding-bottom: 32px;
-
 }
 
 .main__section:last-child {
@@ -231,8 +225,6 @@ header {
 
 }
 
-
-
 .section__link:hover {
   border-bottom: 1px solid var(--paragraph-color);
 }
@@ -241,14 +233,10 @@ header {
   outline: 1px solid var(--paragraph-color);
 }
 
-
-
-
 .gallery__list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-
 }
 
 .gallery__image {
@@ -257,7 +245,6 @@ header {
   height: 100%;
   object-fit: cover;
 }
-
 
 .footer {
   height: 100vh;
@@ -275,7 +262,6 @@ header {
   line-height: 83%;
   color: var(--title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-
 }
 
 @media (min-width: 768px) {
@@ -342,12 +328,9 @@ header {
     min-width: 236px;
   }
 
-
   .section__content {
     grid-column: 2;
   }
-
-
 
   .main__section--single {
     display: block;
@@ -360,13 +343,9 @@ header {
     position: static;
   }
 
-
-
   .main__section--advices {
     grid-template-columns: minmax(236px, 1fr) 2fr;
     padding-bottom: 60px;
-
-
   }
 
   .main__section--advices .section__title {
@@ -375,8 +354,6 @@ header {
     max-width: 236px;
     margin: 0;
     position: static;
-
-
   }
 
   .main__section--advices .title__letter {
@@ -384,7 +361,6 @@ header {
     align-self: start;
     grid-row: 1;
     margin-bottom: 5px;
-
   }
 
   .main__section--advices .section__content {
@@ -392,17 +368,11 @@ header {
     grid-row: 2;
   }
 
-
-
-
-
   .main__section--gallery {
     display: block;
     padding-bottom: 60px;
 
   }
-
-
 
   .gallery__list {
     grid-template-columns: repeat(3, 1fr);
@@ -415,7 +385,6 @@ header {
     aspect-ratio: 1 / 1;
     margin-top: var(--block-gap);
   }
-
 
   .gallery__image:nth-child(1) {
     grid-area: sunset;
@@ -458,7 +427,6 @@ header {
     transform: translateX(-50%);
   }
 
-
   .header__theme-menu-list {
     flex-direction: row;
     gap: 15px;
@@ -467,7 +435,6 @@ header {
   .header__decorated {
     top: 23px;
     right: 29px;
-
   }
 
   .header__text {
@@ -484,7 +451,6 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0;
-
   }
 
   .main__section--single .section__title {
@@ -512,7 +478,4 @@ header {
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
-
-
 }
