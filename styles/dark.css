@@ -8,3 +8,8 @@
   --section-title-color: #FF0070;
   --button-hover-border: rgb(255 0 112 / 0.4);
 }
+
+.theme-dark {
+  --bg-color: #000028;
+  --text-color: #000028;
+}

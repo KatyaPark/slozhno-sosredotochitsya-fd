@@ -10,5 +10,6 @@
 }
 
 :root.theme-light .header__decorated {
-  display: none;
+
+  visibility: hidden;
 }
